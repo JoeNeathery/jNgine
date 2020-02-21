@@ -40,6 +40,14 @@ namespace jNgine {
 
 			glfwMakeContextCurrent(m_Window);
 			glfwSetWindowSizeCallback(m_Window, windowResize);
+
+			//glew needs initialized AFTER glfw init
+			if (glewInit() != GLEW_OK)
+			{
+				std::cout << "Could not initialize GLEW!" << std::endl;
+				return false;
+			}
+
 			return true;
 
 		}
