@@ -1,7 +1,7 @@
 ********************************************
 Author: Joseph Neathery
 Date: 02/21/2020
-jNgine v0.1
+jNgine v0.3
 ********************************************
 GLFW Version: 3.3.2 Win32 WGL EGL OSMesa VisualC
 GLEW Version: 4.6.0 NVIDIA 388.13
